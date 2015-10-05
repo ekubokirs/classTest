@@ -8,7 +8,7 @@ $(document).ready(function(){
 
   // create list of students with help buttons
   for(i=0; i<students.length; i++){
-    $("#studentList").append("<li class='student'><span class='studentName' id='"+ target[i] +"'>"+ students[i] + "</span><button class='aid' id='"+ students[i] + "'> Help </button></li>");
+    $("#studentList").append("<li class='row student'><span class='studentName col-md-6' id='"+ target[i] +"'>"+ students[i] + "</span><button class='aid col-md-2' id='"+ students[i] + "'> Help </button></li>");
     // console.log(students[i]);
   }
 
